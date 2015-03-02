@@ -1,0 +1,14 @@
+{
+    "name": "flatlandish",
+    "title": "Flatlandish",
+    "description": "Theme based roughly off of the Sublime Text Flatland Theme",
+    "homepage": "https://github.com/nickfmc/flatlandish",
+    "version": "1.0.0",
+    "author": "Nick Murray <nick@mountainairweb.com> (http://mountainairweb.com)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.css",
+        "dark": true
+    },
+    "keywords": ["theme"]
+}
