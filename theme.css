@@ -73,7 +73,7 @@
 .CodeMirror-scrollbar-filler {height: 11px !important;width: 11px !important; background: #5C5C5C;}
 
 
-.CodeMirror-vscrollbar{bottom: 11px !important; top: 11px ;border-right: thin solid #999;}
+.CodeMirror-vscrollbar{bottom: 11px !important; top: 11px ;border-right: none;}
 
 .CodeMirror .CodeMirror-hscrollbar{ height: 11px; right: 11px !important;}
 
