@@ -1,5 +1,5 @@
 # flatlandish
-Brackets Theme based roughly off of the ST3 flatland theme.
+Brackets Theme based roughly off of the ST3 flatland color scheme by <a href="https://github.com/thinkpixellab/flatland">thinkpixellab</a>
 
 <h4>CSS</h4>
 ![CSS Sample](/images/css.jpg?raw=true "CSS")
