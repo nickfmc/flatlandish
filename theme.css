@@ -43,8 +43,6 @@
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {color: #f00; background-color: transparent !important;}
 
 
-
-
 /*Inline editor(Ex. Quick Edit - Ctrl + E)*/
 
 .CodeMirror .inline-widget{background: #6a6560; color: #ccc;}
@@ -73,7 +71,7 @@
 .CodeMirror-scrollbar-filler {height: 11px !important;width: 11px !important; background: #5C5C5C;}
 
 
-.CodeMirror-vscrollbar{bottom: 11px !important; top: 11px ;border-right: none;}
+.CodeMirror-vscrollbar{bottom: 11px !important; border-right: none;}
 
 .CodeMirror .CodeMirror-hscrollbar{ height: 11px; right: 11px !important;}
 
