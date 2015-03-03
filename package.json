@@ -3,7 +3,7 @@
     "title": "Flatlandish",
     "description": "Theme based roughly off of the Sublime Text Flatland Theme",
     "homepage": "https://github.com/nickfmc/flatlandish",
-    "version": "0.6.0",
+    "version": "0.6.5",
     "author": "Nick Murray <nick@mountainairweb.com> (http://mountainairweb.com)",
     "license": "MIT",
     "engines": {

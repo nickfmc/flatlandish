@@ -71,18 +71,22 @@
 .CodeMirror-scrollbar-filler {height: 11px !important;width: 11px !important; background: #5C5C5C;}
 
 
-.CodeMirror-vscrollbar{bottom: 11px !important; border-right: none;}
+.CodeMirror-vscrollbar{border-right: none;}
 
 .CodeMirror .CodeMirror-hscrollbar{ height: 11px; right: 11px !important;}
 
 /* Scrollbar gutter - Scrollbar rinne */
-::-webkit-scrollbar-track {background-color: #5C5C5C;}
+::-webkit-scrollbar-track {background-color: #373737;}
 
 /* Scroll object - "background-color" dont work use border to change color*/
-::-webkit-scrollbar-thumb {border: 6px solid #444; border-radius: 2px;}
+::-webkit-scrollbar-thumb {border: 6px solid #777; border-radius: 2px;}
 
-::-webkit-scrollbar-thumb:hover { border: 6px solid #1C2020; }
-::-webkit-scrollbar-thumb:active { border: 6px solid #101010; }
+::-webkit-scrollbar-thumb:hover { border: 6px solid #777; }
+::-webkit-scrollbar-thumb:active { border: 6px solid #777; }
+
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler {
+background: #333;
+}
 
 /* the "x" to close, shout work for all avalibal classes  */
 .close {color: #2b2a27 !important; opacity: 0.5; }
@@ -110,6 +114,15 @@
 .CodeMirror-foldgutter-open {
   color: #555;
 }
+
+.CodeMirror-foldmarker {
+  background-color: #FF5D38 !important;
+  color: #000 !important;
+  padding: 0 20px !important;
+  border: 1px solid #fff !important;
+}
+
+
 
 .CodeMirror-foldgutter-open::after {content: "\25bd";}
 .CodeMirror-foldmarker {background-color: #00A8C6; border-color: #5C5C5C; color: #ede0ce; padding: 0 10px;}
