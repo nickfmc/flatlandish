@@ -37,7 +37,7 @@
 .cm-error{ font-style: italic; border-bottom: 2px dotted #ff3292; }
 .CodeMirror-selected{background-color: rgb(224,240,250); background-color: rgba(224, 240, 250, 0.2) !important;} /*Selected lines - may need !important*/
 .CodeMirror-activeline-background{background:rgb(255,255,255); background:rgba(255, 255, 255, 0.1) !important; border-bottom: 1px solid #ed900e; border-top: 1px solid #ed900e;} /*Active line - may need !important*/
-.CodeMirror-matchingtag{background:none; border-bottom: 1px dashed #fff;} /*Matching tags, open/close. Try !important for bg, color etc. if it doesn't work*/
+.CodeMirror-matchingtag{background-color: rgba(224,240,250,0.15);} /*Matching tags, open/close. Try !important for bg, color etc. if it doesn't work*/
 .CodeMirror-matchingbracket{ border-bottom:1px solid #fff; background: #ccc; } /*Matching brackets, open/close*/
 .cm-attribute{color: #FF5D38; } /*class in file md*/
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {color: #f00; background-color: transparent !important;}
@@ -45,7 +45,7 @@
 
 /*Inline editor(Ex. Quick Edit - Ctrl + E)*/
 
-.CodeMirror .inline-widget{background: #6a6560; color: #ccc;}
+.CodeMirror .inline-widget{background: #222; color: #ccc;}
 
 /********* Quick Documentation - Ctrl + K - CSS*********/
 .inline-widget .css-prop-defn { color: white !important;  }
