@@ -34,11 +34,11 @@
 .cm-attribute {color: #edf066 !important; }
 .cm-keyword {color:#fa9a4b;} /*Element call ex. array, class, public function, if, elseif, !important*/
 .cm-matchingtag{background-color:#2b2a27 ;}
-.cm-error{ font-style: italic; border-bottom: 2px dotted #ff3292; }
+.cm-error{ background: rgba(255,0,0,0.2); }
 .CodeMirror-selected{background-color: rgb(224,240,250); background-color: rgba(224, 240, 250, 0.2) !important;} /*Selected lines - may need !important*/
 .CodeMirror-activeline-background{background:rgb(255,255,255); background:rgba(255, 255, 255, 0.1) !important; border-bottom: 1px solid #ed900e; border-top: 1px solid #ed900e;} /*Active line - may need !important*/
 .CodeMirror-matchingtag{background-color: rgba(224,240,250,0.15);} /*Matching tags, open/close. Try !important for bg, color etc. if it doesn't work*/
-.CodeMirror-matchingbracket{ border-bottom:1px solid #fff; background: #ccc; } /*Matching brackets, open/close*/
+span.CodeMirror-matchingbracket{ background: rgba(255,255,255,0.2); color: #fff !important; } /*Matching brackets, open/close*/
 .cm-attribute{color: #FF5D38; } /*class in file md*/
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {color: #f00; background-color: transparent !important;}
 
