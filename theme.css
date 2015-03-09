@@ -8,6 +8,9 @@
 /*Main area*/
 .CodeMirror, .CodeMirror .CodeMirror-scroll {background: #26292c; color: #f2f2f2;}
 
+/*prevent main body from being jammed against the border */
+.CodeMirror-sizer {padding-left: 3px;}
+
 /************** Cursor e OVR cursor **************/
 .CodeMirror-cursor {border-left: 1px solid #f2f2f2;}
 .CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {border-left: none; border-bottom: 2px solid #ede0ce;}
@@ -20,7 +23,7 @@
 .cm-number{color:#edf066;} /*Numbers*/
 .cm-variable{color: #f4f4f4;} /*Variable name ex. class Variable_name */
 .cm-variable-2{color: #fa9a4b;} /*Variable declaration ex. $variable */
-.cm-variable-3{color: #72aaca;}
+.cm-variable-3{color: #C7B1DD;} /*:hover :visited etc.*/
 .cm-property{color:#72aaca;} /*Property ex. color in color:#f00;*/
 .cm-operator{color: #fa9a4b;} /*Operators ex. dots (:) between property and atom value */
 .cm-comment{color:#798188;} /*Comment*/
@@ -122,6 +125,11 @@ background: #333;
   border: 1px solid #fff !important;
 }
 
+/*brackets documents-toolbar (https://github.com/dnbard/brackets-documents-toolbar)*/
+.ext-documents .document-close {
+position: relative !important;
+left: 0px;
+}
 
 
 .CodeMirror-foldgutter-open::after {content: "\25bd";}
